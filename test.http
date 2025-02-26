@@ -1,0 +1,12 @@
+POST http://localhost:3002/users
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@gmail.com",
+    "age": 19
+}
+###
+
+GET http://localhost:3002/users
