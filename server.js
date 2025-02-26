@@ -43,7 +43,7 @@ app.post("/users", async (req, res) => {
   const user = new User({
     firstName: req.body.firstName,
     lastName: req.body.lastName,
-    email: req.body.email,
+    email: req.body.email, 
     age: req.body.age,
   });
 
